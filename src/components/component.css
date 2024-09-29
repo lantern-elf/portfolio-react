@@ -1,0 +1,29 @@
+.logoImg {
+    width: 48px;
+    height: 48px;
+}
+
+.logo{
+    padding: 2px;
+}
+
+.logoSess{
+    display: flex;
+    place-items: center;
+    width: 20%;
+}
+
+.menu{
+    padding-inline-end: 8px;
+}
+
+.menuSess{
+    display: flex;
+    place-items: center;
+    width: 80%;
+    padding: 20px;
+}
+
+li{
+    list-style: none;
+}
