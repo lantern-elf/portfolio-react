@@ -1,5 +1,5 @@
 import '../index.css'
-import './component.css'
+import './navbar.css'
 
 function Navbar() {
     return(
@@ -9,9 +9,10 @@ function Navbar() {
                 <div className="logo logoText"><b>Lantern Elf</b></div>
             </div>
             <div className='menuSess'>
-                <li className='menu'><button href="">Home</button></li>
-                <li className='menu'><button href="">Skills</button></li>
-                <li className='menu'><button href="">Commission</button></li>
+                <li className='menu'><a className='menuButton'><b>Home</b></a></li>
+                <li className='menu'><a className='menuButton'><b>About</b></a></li>
+                <li className='menu'><a className='menuButton'><b>Skills</b></a></li>
+                <li className='menu'><a className='menuButton'><b>Commission</b></a></li>
             </div>
         </nav>
     )

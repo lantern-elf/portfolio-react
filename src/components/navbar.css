@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 .logoImg {
     width: 48px;
     height: 48px;
@@ -14,7 +16,11 @@
 }
 
 .menu{
-    padding-inline-end: 8px;
+    padding-inline-end: 32px;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    cursor: pointer;
 }
 
 .menuSess{
