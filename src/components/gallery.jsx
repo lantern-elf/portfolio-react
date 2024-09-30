@@ -10,8 +10,8 @@ function Gallery() {
             <div className="gallery">
                 <div className='galleryWrapper'>
                     {
-                        artsImg.map(arts => (
-                            <img className='arts' key={arts.id} src={arts.src} />
+                        artsImg.map((arts) => (
+                            <img className='art' key={arts.id} src={arts.src} alt="" />
                         ))
                     }
                 </div>
