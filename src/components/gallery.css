@@ -1,0 +1,13 @@
+.arts{
+    height: 512px;
+    width: 256px;
+    padding-inline: 2px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;;
+}
+
+.arts:hover{
+    transform: scale(0.95);
+}
+
