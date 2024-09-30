@@ -10,6 +10,7 @@
 body{
   background: rgb(15,15,36);
   background: linear-gradient(164deg, rgba(15,15,36,1) 0%, rgba(26,40,18,1) 100%);
+  background-attachment: fixed;
   height: 100vh;
   margin: 0;
 }
@@ -22,6 +23,7 @@ nav{
   height: 10vh;
   backdrop-filter: blur(30px);
   background-color: rgba(20, 20, 24, 0.423);
+  z-index: 999;
 }
 
 main{

@@ -4,10 +4,16 @@
     padding-inline: 2px;
     object-fit: cover;
     cursor: pointer;
-    transition: transform 0.3s ease;;
+    transition: transform 0.3s ease;
+    border-radius: 30px;
 }
 
 .arts:hover{
     transform: scale(0.95);
 }
 
+.galleryWrapper{
+    width: 100%;
+    display: inline-flex;
+    overflow-x: scroll;
+}
