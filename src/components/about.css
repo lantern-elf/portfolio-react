@@ -1,0 +1,50 @@
+.aboutPage{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(36, 32, 41); */
+}
+
+.pageHeader{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    width: 100%;
+    height: 10vh;
+    font-size: 24px;
+}
+
+.pageContent{
+    display: flex;
+    justify-content: center;
+    gap: 10vh;
+    height: 100%;
+}
+
+.column{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+
+.imageFrame{
+    width: 272px;
+    height: 272px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    position: relative;
+}
+
+.photo{
+    display: flex;
+    justify-content: end;
+}
+
+.photo img{
+    width: 256px;
+    height: 256px;
+    border-radius: 50%;
+}

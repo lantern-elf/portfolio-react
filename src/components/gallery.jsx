@@ -11,7 +11,9 @@ function Gallery() {
                 <div className='galleryWrapper'>
                     {
                         artsImg.map((arts) => (
-                            <img className='art' key={arts.id} src={arts.src} alt="" />
+                            <>
+                                <img className='art' key={arts.id} src={arts.src} alt="" />
+                            </>
                         ))
                     }
                 </div>

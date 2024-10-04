@@ -9,10 +9,10 @@ function Navbar() {
                 <div className="logo logoText"><b>Lantern Elf</b></div>
             </div>
             <div className='menuSess'>
-                <li className='menu'><a className='menuButton'><b>Home</b></a></li>
-                <li className='menu'><a className='menuButton'><b>About</b></a></li>
-                <li className='menu'><a className='menuButton'><b>Skills</b></a></li>
-                <li className='menu'><a className='menuButton'><b>Commission</b></a></li>
+                <li className='menu'><a className='menuButton'>Home</a></li>
+                <li className='menu'><a className='menuButton'>About</a></li>
+                <li className='menu'><a className='menuButton'>Skills</a></li>
+                <li className='menu'><a className='menuButton'>Commission</a></li>
             </div>
         </nav>
     )
