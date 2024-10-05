@@ -21,8 +21,6 @@ nav{
   display: flex;
   justify-self: baseline;
   height: 10vh;
-  backdrop-filter: blur(30px);
-  background-color: rgba(20, 20, 24, 0.423);
   z-index: 999;
 }
 
