@@ -16,28 +16,23 @@ function About() {
                     <div className="column about">
                         <div className='aboutSess'>
                             <div className='aboutHeader'>
-                                LANTERN ELF
+                                Name
                             </div>
-                            @lantern_elf
+                            Lantern Elf
                         </div>
                         <div className='aboutSess'>
                             <div className='aboutHeader'>
-                                E-MAIL
+                                E-Mail
                             </div>
                             lanternelf@gmail.com
-                        </div>
-                        <div className='aboutSess'>
-                            <div className="aboutHeader">
-                                PLATFORMS
-                            </div>
-                            <div className='platformLinks'>
-                                
-                            </div>
                         </div>
                     </div>
                 </div>
                 <div className='contentSess2'>
-                    
+                    <div className='contentText'>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta beatae iste quia porro obcaecati ex tempora, placeat veniam dolorem animi blanditiis accusamus a sapiente asperiores vero, eos fuga dignissimos quam.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, atque perspiciatis. Earum ipsum commodi, consequatur porro, perspiciatis adipisci deserunt dignissimos nulla laborum in et, eos nostrum ipsa cumque atque hic?
+                    </div>
                 </div>
             </div>
         </div>
