@@ -2,29 +2,27 @@
     height: 90vh;
     display: inline-flex;
     scroll-behavior: smooth;
-    justify-content: center;
-    /* place-items: center; */
 }
 
 .art{
     object-fit: cover;
     height: 100%;
-    width: 256px;
-    padding-inline: 2px;
+    width: 263px;
     cursor: pointer;
     transition: transform 0.3s ease;
     border-radius: 8px;
 }
 
-.art:hover{
+/* .art:hover{
     transform: scale(0.97);
-}
+} */
 
 .galleryWrapper{
+    overflow-x: hidden;
     position: relative;
     width: 100%;
     display: inline-flex;
-    overflow-x: scroll;
+    justify-content: space-between;
+    gap: 4px;
     margin-inline: 8px;
-    justify-content: center;
 }

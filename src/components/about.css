@@ -27,7 +27,6 @@
 
 .contentSess2{
     display: flex;
-    text-align: justify;
     justify-content: center;
 }
 
@@ -77,7 +76,7 @@
     letter-spacing: 2px;
     display: flex;
     flex-direction: column;
-    gap: 7px;
+    /* gap: 0px; */
 }
 
 .aboutHeader{
@@ -85,7 +84,7 @@
     letter-spacing: 2px;
     font-weight: 500;
     text-transform: capitalize;
-    color: rgb(163, 199, 116);
+    color: rgb(125, 180, 92);
     text-transform: uppercase;
 }
 
@@ -96,4 +95,6 @@
 }
 .contentText{
     width: 40%;
+    font-size: 16px;
+    text-align: justify;
 }
